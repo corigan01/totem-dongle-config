@@ -18,7 +18,6 @@
 #define SYM  2
 #define ADJ  3
 
-
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -136,7 +135,7 @@
             bindings = <
         &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp ASTERISK       &kp LPAR  &kp RIGHT_PARENTHESIS
         &kp N1           &kp N2       &kp N3    &kp N4      &kp N5         &kp N6     &kp N7            &kp N8             &kp N9    &kp N0
-&trans  &kp GRAVE        &trans       &trans    &trans      &kp MINUS      &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &kp BACKSLASH          &trans
+&trans  &kp GRAVE        &kp TAB      &trans    &kp ENTER   &kp MINUS      &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &kp BACKSLASH          &trans
                                       &trans    &trans      &trans         &trans     &trans            &trans
             >;
         };
@@ -161,10 +160,10 @@
 
         bootloader {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &bootloader    &bootloader    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &studio_unlock &studio_unlock &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans         &trans         &trans  &trans
+        &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bootloader       &bootloader     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &studio_unlock    &studio_unlock  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans            &trans          &trans  &trans
             >;
         };
 
