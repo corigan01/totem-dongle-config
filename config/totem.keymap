@@ -123,9 +123,9 @@
 
         nums_and_syms {
             bindings = <
-                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-                &kp GRAVE     &kp TAB       &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans        &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &trans        &trans        &trans                &kp LESS_THAN     &kp MINUS         &kp EQUAL        &kp GREATER_THAN   &trans                 &trans        &trans            &kp BACKSLASH
+                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8           &kp NUMBER_9    &kp NUMBER_0
+                &kp GRAVE     &kp TAB       &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &trans        &trans        &trans                &kp LESS_THAN     &kp MINUS         &kp EQUAL        &kp GREATER_THAN   &trans                 &kp PIPE        &trans            &kp BACKSLASH
                                             &trans                &trans            &trans            &trans           &trans             &trans
             >;
         };
