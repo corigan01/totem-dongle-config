@@ -29,19 +29,15 @@
     combos {
         compatible = "zmk,combos";
 
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <19 18>;
-        };
-
-        Tab {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-        };
-
         Bootloader {
             bindings = <&bootloader>;
             key-positions = <20 34 35 31>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <3 2>;
+            layers = <0>;
         };
     };
 
@@ -114,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E             &kp R               &kp T                  &kp Y      &kp U        &kp I        &kp O    &kp P
-                &kp A  &kp S  &kp D             &kp F               &kp G                  &kp H      &kp J        &kp K        &kp L    &kp SEMI
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V               &kp B                  &kp N      &kp M        &kp COMMA    &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
-                              &kp LEFT_CONTROL  &mt LEFT_WIN SPACE  &mt LEFT_ALT ESCAPE    &bksp_del  &lt 1 SPACE  &lt 2 ENTER
+                &kp Q  &kp W  &kp E             &kp R               &kp T           &kp Y      &kp U        &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D             &kp F               &kp G           &kp H      &kp J        &kp K      &kp L    &kp SEMI
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V               &kp B           &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
+                              &kp LEFT_CONTROL  &mt LEFT_WIN SPACE  &kp LEFT_ALT    &bksp_del  &lt 1 SPACE  &to 2
             >;
         };
 
