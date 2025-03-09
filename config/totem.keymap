@@ -104,19 +104,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E             &kp R               &kp T           &kp Y          &kp U  &kp I      &kp O    &kp P
-                &kp A  &kp S  &kp D             &kp F               &kp G           &kp H          &kp J  &kp K      &kp L    &kp SEMI
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V               &kp B           &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
-                              &kp LEFT_CONTROL  &mt LEFT_WIN SPACE  &kp LEFT_ALT    &kp BACKSPACE  &mo 1  &mo 2
+                &kp Q  &kp W  &kp E             &kp R      &kp T         &kp Y          &kp U        &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D             &kp F      &kp G         &kp H          &kp J        &kp K      &kp L    &kp LEFT_WIN
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V      &kp B         &kp N          &kp M        &kp COMMA  &kp DOT  &kp LEFT_ALT  &mt RIGHT_SHIFT ENTER
+                              &kp LEFT_CONTROL  &kp SPACE  &kp ESCAPE    &kp BACKSPACE  &lt 2 SPACE  &mo 1
             >;
         };
 
         nums_and_syms {
             bindings = <
-                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8           &kp NUMBER_9    &kp NUMBER_0
-                &kp GRAVE     &kp TAB       &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp DELETE    &trans        &trans                &kp MINUS         &kp LESS_THAN     &kp GREATER_THAN  &kp EQUAL          &trans                 &kp PIPE        &trans            &kp BACKSLASH
-                                            &trans                &trans            &trans            &trans            &trans             &trans
+                &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8           &kp NUMBER_9    &kp NUMBER_0
+                &kp GRAVE     &kp TAB        &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &trans
+&kp LEFT_SHIFT  &kp DELETE    &kp SEMICOLON  &kp SLASH             &kp MINUS         &kp LESS_THAN     &kp GREATER_THAN  &kp EQUAL          &kp SINGLE_QUOTE       &kp PIPE        &trans        &kp BACKSLASH
+                                             &trans                &trans            &trans            &trans            &trans             &trans
             >;
         };
 
@@ -125,7 +125,7 @@
                 &trans  &trans  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &kp C_PREVIOUS    &kp C_NEXT  &trans    &kp UP    &trans     &trans
                 &trans  &trans  &kp C_VOL_DN     &trans            &trans            &trans      &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &kp LEFT_SHIFT  &trans  &trans  &kp K_MUTE       &trans            &trans            &trans      &trans    &trans    &trans     &trans  &trans
-                                &trans           &trans            &trans            &mo 4       &to 3     &trans
+                                &trans           &trans            &trans            &trans      &trans    &trans
             >;
         };
 
