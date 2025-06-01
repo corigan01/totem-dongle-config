@@ -41,7 +41,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <13 12>;
         };
     };
 
@@ -97,8 +97,8 @@
             bindings = <&kp ESCAPE>, <&kp ENTER>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
         };
     };
 
